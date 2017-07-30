@@ -1,0 +1,3 @@
+node-started.d/run_me.sh
+configure.d/run_me.sh
+
