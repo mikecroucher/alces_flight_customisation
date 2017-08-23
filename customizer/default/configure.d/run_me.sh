@@ -1,3 +1,4 @@
 #!/bin/bash
-echo "I ran"
+echo "confifure.d"
+echo "$@"
 sudo mkdir /opt/testing
