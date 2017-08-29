@@ -1,11 +1,7 @@
-# Alces flight customisation profiles
+# Alces fight customisation
 
-## Slurm commands
+The customisation in this github repo does the following
 
-
-Info about hosts
-
-```
-sinfo -N
-sinfo -O nodelist,cpus,nodes,statelong -N
- ```
+* Creates 35 training accounts with random passwords and puts details in /home/ADMINUSER/users.txt
+* Allows SSH log in with passwords
+* Installs a few packages using the script 
