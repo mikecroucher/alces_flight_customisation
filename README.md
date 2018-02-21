@@ -2,7 +2,7 @@
 
 This is the github repo behind the blog post at http://www.walkingrandomly.com/?p=6431 
 
-## What does these scripts do?
+## What do these scripts do?
 
 The customisation scripts in this github repo do the following
 
