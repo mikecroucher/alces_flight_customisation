@@ -6,9 +6,18 @@ This is the github repo behind the blog post at http://www.walkingrandomly.com/?
 
 The customisation scripts in this github repo do the following
 
+`customizer/default/configure.d/run_me.sh`
+
 * Creates 35 training accounts with random passwords and puts details in /home/walkingrandomly/users.txt
 * Allows SSH log in with passwords
-* Installs a few packages using the script https://github.com/mikecroucher/alces_flight_customisation/blob/master/customizer/default/configure.d/install_software.sh
+
+`customizer/default/configure.d/install_software.sh`
+
+* Installs some packages.
+
+`customizer/default/node-started.d/`
+
+* Used while debugging. Currently only says 'I ran' in the logfile at `/var/log/clusterware/instance.log`
 
 ## Using the scripts with Alces flight
 
