@@ -1,6 +1,7 @@
 #!/bin/bash
 echo "configure.d script"
 number_of_users=35
+password_file=/home/walkingrandomly/users.txt
 
 #Install mkpasswd
 sudo yum install expect -y
@@ -8,7 +9,6 @@ sudo yum install expect -y
 if [ $2 = 'master' ]; then
  echo "Running on master node"
  #Master node
- password_file=/home/walkingrandomly/users.txt
  touch $password_file
  for i in `seq 1 $number_of_users`;
   do
